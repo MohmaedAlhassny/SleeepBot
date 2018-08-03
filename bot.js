@@ -68,9 +68,6 @@ function play(connection, message) {
 	});
 }
 
-client.on("ready", () => {
-	console.log(`Slepping bot is in ${client.guilds.size} servers `)
-});
 
 var PREFIX = ".";
 
