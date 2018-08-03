@@ -4,14 +4,8 @@ const yt = require('ytdl-core');
 
 client.on('ready', () => {
 console.log('Logging into discord..');
-client.user.setActivity('Sleeping..',{type: 'LISTENING'});
-`);
-
+	client.user.setActivity('Dynasty AFK.',{type: 'LISTENING'});
 });
-
-//جميع الحقوق محفوظه لي ماجد يعني لاتسوي مبرمج. 
-
-
 
 
 
@@ -43,13 +37,13 @@ var servers = {};
 
 
 
-var q1 = ".mmmm4"
+var q1 = "#startafk"
 
-var q2 = ".mmmm3"
+var q2 = "qqqq2"
 
-var q3 = ".mmmm2"
+var q3 = "qqqq3"
 
-var q4 = ".mmmm1"
+var q4 = "qqqq4"
 
 
 
@@ -68,6 +62,9 @@ function play(connection, message) {
 	});
 }
 
+client.on("ready", () => {
+	console.log(`Quran bot is in ${client.guilds.size} servers `)
+});
 
 var PREFIX = ".";
 
@@ -99,7 +96,7 @@ client.on("message", message => {
     }
     voiceChannel.join()
       .then(connnection => {
-        let stream = yt('https://www.youtube.com/watch?v=4D8ezH0iXh8', {audioonly: true});
+        let stream = yt('https://youtu.be/0m02xNtR8gA', {audioonly: true});
         const dispatcher = connnection.playStream(stream);
       });
   }
@@ -112,7 +109,7 @@ client.on("message", message => {
     }
     voiceChannel.join()
       .then(connnection => {
-        let stream = yt('https://www.youtube.com/watch?v=4D8ezH0iXh8', {audioonly: true});
+        let stream = yt('https://www.youtube.com/watch?v=4JvY-MccxNk', {audioonly: true});
         const dispatcher = connnection.playStream(stream);
       });
   }
@@ -125,7 +122,7 @@ client.on("message", message => {
     }
     voiceChannel.join()
       .then(connnection => {
-        let stream = yt('https://www.youtube.com/watch?v=4D8ezH0iXh8', {audioonly: true});
+        let stream = yt('https://www.youtube.com/watch?v=Ktync4j_nmA', {audioonly: true});
         const dispatcher = connnection.playStream(stream);
         });
   }
@@ -144,15 +141,15 @@ client.on("message", message => {
 
   if(message.content === ".ffffffffffffffff") {
     message.channel.send(` QuranBot
-:mosque: .quran 1  :   القران الكريم كامل بصوت الشيخ عبدالباسط عبدالصمد 
+:mosque: .fff  :   القران الكريم كامل بصوت الشيخ عبدالباسط عبدالصمد 
 
-:mosque: .quran 2  :   سورة البقرة كاملة - القارئ الحاج ميثم التمار (QURAN)
+:mosque: .ffff 2  :   سورة البقرة كاملة - القارئ الحاج ميثم التمار (QURAN)
 
-:mosque: .quran 3  :   القرآن الكريم كامل بصوت الشيخ عبد الرحمن السديس وسعود الشريم 
+:mosque: .ffffff 3  :   القرآن الكريم كامل بصوت الشيخ عبد الرحمن السديس وسعود الشريم 
 
-:mosque: .quran 4  :   القرآن الكريم كامل بصوت الشيخ المعيقلي
+:mosque: .ffffffff 4  :   القرآن الكريم كامل بصوت الشيخ المعيقلي
 
-:mosque: .stop     : لـ أيقاف تشغيل البوت `)
+:mosque: .ffffff     : لـ أيقاف تشغيل البوت `)
 }
  
 	    
